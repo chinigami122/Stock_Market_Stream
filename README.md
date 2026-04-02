@@ -7,15 +7,6 @@ This project follows a Medallion Architecture approach:
 - Silver: cleaned and deduplicated
 - Gold: analytics-ready tables for BI
 
-## Inspiration
-
-The structure is inspired by common open-source GitHub data engineering patterns:
-- Event streaming with Kafka producer/consumer
-- Data lake landing zone with S3-compatible storage (MinIO)
-- Orchestration with Airflow
-- SQL transformations with dbt
-- BI semantic layer from Gold models
-
 ## Architecture
 
 1. Producer publishes stock quote events to Kafka.
@@ -26,7 +17,6 @@ The structure is inspired by common open-source GitHub data engineering patterns
 
 ## Project Visuals
 
-Use this section to add your final screenshots and diagrams.
 
 ### Dashboard Preview
 
