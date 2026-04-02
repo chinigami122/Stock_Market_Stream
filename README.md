@@ -41,7 +41,7 @@ Use this section to add your final screenshots and diagrams.
 ### Pipeline Architecture Diagram
 
 <!-- Replace with your real image path -->
-![Pipeline Architecture](powerbi/images/pipeline-architecture.png)
+![Pipeline Architecture](powerbi/images/pipeline-architecture.jpeg)
 
 ## Warehouse Modes (Important)
 
