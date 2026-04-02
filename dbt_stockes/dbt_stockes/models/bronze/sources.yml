@@ -1,0 +1,20 @@
+version: 2
+sources:
+  - name: raw
+    database: airflow
+    schema: analytics
+    tables:
+      - name: bronze_stock_quotes_raw
+        columns:
+          - name: id
+            description: "Unique record identifier"
+          - name: symbol
+            description: "Stock ticker symbol"
+          - name: fetched_at
+            description: "Timestamp when quote was fetched"
+          - name: payload
+            description: "Full JSON payload with OHLC and metadata"
+          - name: source_file
+            description: "MinIO source file path"
+          - name: inserted_at
+            description: "Timestamp when record was inserted into warehouse"

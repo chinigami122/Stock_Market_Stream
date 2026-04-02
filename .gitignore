@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+**/logs/
+*.log
+
+# dbt artifacts
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Airflow / Python bytecode in DAGs
+**/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Power BI
+*.pbix
+*.pbit
+
+# Misc temporary files
+*.tmp
+*.bak

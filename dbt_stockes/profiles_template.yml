@@ -1,0 +1,18 @@
+# dBT Profiles Configuration Template
+# Save this file as ~/.dbt/profiles.yml (on Windows: %AppData%\dbt\profiles.yml)
+# Then update the target to 'postgres' in dbt_project.yml
+
+dbt_stockes:
+  target: postgres
+  outputs:
+    postgres:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: airflow
+      password: airflow
+      dbname: airflow
+      schema: analytics
+      threads: 4
+      keepalives_idle: 0
+      search_path: analytics
